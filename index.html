@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+   <script src="jquery-2.1.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="js.js"></script>
+
+
+    <!--[if lt IE  9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+        article,aside,details,figcaption,figure,footer,header,menu,nav,section{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav" role="navigation" class="container-fluid">
+        <div id="nav-first" class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropDown-1" data-toggle="dropdown"aria-expanded="true">
+                送至天津
+                <span class="caret"></span>
+            </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-1" >
+                    <li><a href="#">北京</a></li>
+                    <li><a href="#">天津</a></li>
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">广州</a></li>
+                    <li><a href="#">深圳</a></li>
+                    <li><a href="#">西安</a></li>
+                    <li><a href="#">南京</a></li>
+                    <li><a href="#">成都</a></li>
+                    <li><a href="#">杭州</a></li>
+                    <li><a href="#">苏州</a></li>
+                </ul>
+
+        </div>
+        <div id="nav-later" >
+            <ul  class="nav navbar-nav">
+                <li class="active li"><a href="#">你好，请登录 &nbsp;&nbsp; 免费注册</a> </li>
+                <li class="li"><a >我的订单</a></liclass>
+                <li class="dropdown li ">
+                    <a href="#" class="dropdown-toggle"  data-toggle="dropdown"role="button">我的京东<span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                     <div><li><a href="#" > 咨询回复</a></li>
+                         <li><a href="#"> 降价商品</a></li>
+                         <li><a href="#"> 返修退换货</a></li>
+                         <li><a href="#"> 返修退换货</a></li></div>
+
+                     <div>
+                         <li><a href="#"> 我的关注</a></li>
+                         <li><a href="#"> 我的京豆</a></li>
+                         <li><a href="#"> 我的理财</a></li>
+                         <li><a href="#"> 我的白条</a></li>
+                     </div>
+                 </ul>
+                </li>
+                <li class="li"><a href="#">京东会员</a></li>
+                <li class="li"><a href="#">企业采购</a></li>
+                <li class="dropdown li">
+                    <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown"><span class="glyphicon glyphicon-phone"></span>&nbsp;手机京东<span class="caret"></span></a>
+
+                    <div class="dropdown-menu">
+                        <div class="erweima1">
+                            <img src="erweima1.jpg">
+                            <div class="text">
+                                <p>京东客户端首次下单<br>满79送79元</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="erweima2">
+                            <img src="erweima3.jpg">
+                            <div class="text">
+                                <p>京东钱包客户端<br>扫码支付，首单减十元</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            <li class="dropdown li" >
+                <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button">关注京东<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <div><img src="erweima1.jpg" ></div>
+                </ul>
+            </li>
+            <li class="dropdown li">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">客户服务<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">售后服务</a></li>
+                    <li><a href="#">在线服务</a></li>
+                    <li><a href="#">意见建议</a></li>
+                    <li><a href="#">客服邮箱</a></li>
+                </ul>
+            </li>
+            <li class="dropdown li">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button">网站导航<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <div class="nav-item">
+
+                    </div>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-search">
+        <div class="logo-dog"><a href="#" class="logo"><img src="logo-dog.png" ></a></div>
+
+        <div class="search" id="search">
+          <div class="form">
+            <input id="key" class="key" type="text">
+            <button class="submit" type="submit">搜索</button>
+          </div>
+          <ul id="select">
+            <li><a href="#"  style="color: red;">开学放假</a></li>
+            <li><a href="#">入秋上心</a></li>
+            <li><a href="#">1元抢</a></li>
+            <li><a href="#">上新满减</a></li>
+            <li><a href="#">199减100</a></li>
+
+            <li><a href="#">中华神皂</a></li>
+            <li><a href="#">夹克</a></li>
+            <li><a href="#">施华洛世奇</a></li>
+            <li><a href="#">巧克力</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+            <ul>
+                <li>
+                    <button type="button" class="btn btn-default  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ><span class="glyphicon glyphicon-star" aria-hidden="true"></span> 我的购物车 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li> <div class="my-shopping-item">ddff</div></li>
+                    </ul>
+
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div id="nav-three-line">
+        <div class="nav-three-line-center">
+            <div class="dropdown" id="nav-three-line-center-left">
+                <div class="dt">
+                    <a href="#">全部商品分类</a>
+                </div>
+                <div class="dd">
+                    <div class="dd-left">
+                        <h3 >
+                            <a  class="sub-menu" onclick=document.getElementById("item2").style.display="inline-block">家用电器 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">手机、数码、京东通信 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">电脑、办公 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">家居、家具、家装、厨具 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">男装、女装、内衣、珠宝 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">个护化妆 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">鞋靴、箱包、钟表、奢侈品</a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">运动户外 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">汽车、汽车用品 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">母婴、玩具乐器 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">食品、酒类、生鲜、特产 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                        <a class="sub-menu">营养保健 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">图书、音像、电子书 ></a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">彩票、旅行、充值、票务 </a>
+                            <i> ></i>
+
+                        </h3>
+                        <h3>
+                            <a class="sub-menu">理财、重酬、白条、保险</a>
+                            <i> ></i>
+
+                        </h3>
+                    </div>
+                    <div class="second-menu-items">
+                        <div id="item2" class="second-menu-item">jingdong</div>
+                        <div id="item3"  class="second-menu-item">进攻的那个</div>
+                        <div id="item4" class="second-menu-item">京东</div>
+                        <div id="item5" class="second-menu-item"></div>
+                        <div id="item6" class="second-menu-item"></div>
+                        <div id="item7" class="second-menu-item"></div>
+                        <div id="item8" class="second-menu-item"></div>
+                        <div id="item9" class="second-menu-item"></div>
+                        <div id="item10" class="second-menu-item"></div>
+                        <div id="item11" class="second-menu-item"></div>
+                        <div id="item12" class="second-menu-item"></div>
+                        <div id="item13" class="second-menu-item"></div>
+                        <div id="item14" class="second-menu-item"></div>
+                        <div id="item15" class="second-menu-item"></div>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="nav-three-line-item">
+                <ul class="item-group">
+                    <li class="item1"><a href="#">服装城</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item2"><a href="#">美妆馆</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item3"><a href="#">美食</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item4"><a href="#">全球购</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item5"><a href="#">闪购</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item6"><a href="#">团购</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item7"><a href="#">拍卖</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item8"><a href="#">金融</a></li>
+                </ul>
+                <ul class="item-group">
+                    <li class="item9"><a href="#">智能</a></li>
+                </ul>
+
+            </div>
+            <div class="nav-three-line-right">
+                <a href="#">潮品1元立即抢购！</a>
+            </div>
+        </div>
+    </div>
+    <div id="focus">
+        <div class="focus-slider">
+            <ul class="focus-slider-main">
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-1.jpg" ></a>
+                    </div>
+                </li>
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-1.jpg" ></a>
+                    </div>
+                </li>
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-2.jpg" ></a>
+                    </div>
+                </li>
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-3.jpg" ></a>
+                    </div>
+                </li>
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-4.jpg" ></a>
+                    </div>
+                </li>
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-5.jpg" ></a>
+                    </div>
+                </li>
+                <li class="slider-panel">
+                    <div class="inner">
+                        <a href="#"><img src="images/focus-6.jpg" ></a>
+                    </div>
+                </li>
+            </ul>
+            <div focus-slider-main-num></div>
+        </div>
+    </div>
+    <div id="focus-extra">
+        <div id="focus-extra-top">
+            <div class="mt">
+                <h2>京东快报</h2>
+                <div class="mt-extra">
+                    <a href="#">更多  > </a>
+                </div>
+            </div>
+            <div class="mc">
+                <ul>
+                    <li><a href="#"><span>[特惠]</span>早秋尚新品潮鞋来袭 买一送一</a></li>
+                    <li><a href="#"><span>[公告]</span>大阅兵、世锦赛期间配送延迟</a></li>
+                    <li><a href="#"><span>[特惠]</span>i5全高清轻薄笔记本仅￥3199</a></li>
+                    <li><a href="#"><span>[特惠]</span>京东生鲜三周年领“鲜”四重礼</a></li>
+                    <li><a href="#"><span>[特惠]</span>开学季秒杀学霸 全场1元秒到底</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="focus-extra-bottom">
+            <div class="mt">
+                <h2>生活服务</h2>
+            </div>
+            <div class="mc">
+                <a href="#"><img src="images/focus-extra.png"></a>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="focus-bottom" >
+        <div class="focus-bottom-inner">
+            <a href="#"><img src="images/focus-bottom.jpg"></a>
+        </div>
+
+    </div>
+    <div id="page-center">
+        <div id="page-center-hobby">
+            <div class="like">
+                <h2>猜你喜欢</h2>
+                <a class="like-side" href="#"><img src="images/page-center-7.png">  </a>
+            </div>
+            <div class="like-item">
+                <ul>
+                    <li class="item">
+                        <div class="img"> <a href="#"><img src="images/page-center-1.jpg" ></a></div>
+                        <div class="info">
+                            <div class="n"><a href="#">CSS禅意花园（修订版）</a></div>
+                            <div class="p"><span>￥50.2</span></div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="img"> <a href="#"><img src="images/page-center-2.jpg" ></a></div>
+                        <div class="info">
+                            <div class="n"><a href="#">HTML5与CSS3基础教程</a></div>
+                            <div class="p"><span>￥51.2</span></div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="img"> <a href="#"><img src="images/page-center-3.jpg" ></a></div>
+                        <div class="info">
+                            <div class="n"><a href="#">美的 mg38cb-AA</a></div>
+                            <div class="p"><span>￥329</span></div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="img"> <a href="#"><img src="images/page-center-4.jpg" ></a></div>
+                        <div class="info">
+                            <div class="n"><a href="#">格兰仕</a></div>
+                            <div class="p"><span>￥269</span></div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="img"> <a href="#"><img src="images/page-center-5.jpg" ></a></div>
+                        <div class="info">
+                            <div class="n"><a href="#">联想NGY-8</a></div>
+                            <div class="p"><span>￥4188</span></div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="img"> <a href="#"><img src="images/page-center-6.jpg" ></a></div>
+                        <div class="info">
+                            <div class="n"><a href="#">联想台式电脑</a></div>
+                            <div class="p"><span>￥3199</span></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div id="page-center-shopping">
+            <div class="shopping-top">
+                <h2>京东特色购</h2>
+            </div>
+            <div class="shopping-bottom">
+                <div>
+                    <div class="shopping-left">
+                        <a href="#"><img src="images/pcs-1.png"> </a>
+                        <a href="#"><img src="images/pcs-2.jpg"> </a>
+                    </div>
+                    <div class="shopping-mid">
+                        <a href="#"><img src="images/pcs-3.jpg"></a>
+                        <a href="#"><img src="images/pcs-4.png"></a>
+                        <a href="#"><img src="images/pcs-5.png"></a>
+                    </div>
+                    <div class="shopping-right">
+                        <a href="#"> <img src="images/pcs-6.jpg" width="195"></a>
+                        <a href="#"> <img src="images/pcs-7.png" width="195"></a>
+                        <a href="#"> <img src="images/pcs-8.png"></a>
+                        <a href="#"> <img src="images/pcs-9.jpg" width="195"></a>
+                        <a href="#"> <img src="images/pcs-10.png" width="390"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="page-center-img"><a href="#"><img src="images/pci-1.jpg"></a></div>
+    </div>
+
+
+</body>
+</html>
